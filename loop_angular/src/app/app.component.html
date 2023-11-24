@@ -1,0 +1,43 @@
+<div class="Container">
+
+ <div class="side-bar">
+ <h1>Side Bar</h1>
+ </div>
+
+ <div class="Right">
+
+ <div class="top-bar">
+  <h1>Top Bar</h1>
+ </div>  
+
+
+<div class="container">
+  <div class="column">
+    <div class="box">Div 1</div>
+    <div class="box">Div 2</div>
+  </div>
+
+  <div class="column">
+    <div class="box">Div 3</div>
+    <div class="box">Div 4</div>
+  </div>
+</div>
+
+  <div *ngFor="let index of [].constructor(divCount); let i = index"> 
+   <div class="box1">Div {{ i + 1}}</div>
+  </div>
+
+  <div *ngFor="let index of [].constructor(divCount); let i = index"> 
+    <div class="box1">Div {{ i + 2}}</div>
+   </div>
+
+   <div *ngFor="let index of [].constructor(divCount); let i = index"> 
+    <div class="box1">Div {{ i + 3}}</div>
+   </div>
+
+   
+
+<!-- <h3 *ngFor="let item of users"> Name is : {{item}}</h3> -->
+</div> 
+</div>
+
